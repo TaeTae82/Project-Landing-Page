@@ -1,0 +1,162 @@
+* {
+    font-family: Roboto;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header, .section1, footer {
+    background-color: #1F2937;
+    color: #eee;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+header {
+    display: flex;
+    border: 1px orange solid;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 30px;
+
+}
+
+.head-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    border: 1px solid white;
+}
+
+.top1 p, header li {
+    font-size: 18px;
+    color: #e5e7eb;
+    border: 1px solid pink;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+    padding: 30px;
+    justify-content: center;
+    gap: 30px;
+}
+
+/*.contain-top {
+    height: 300px;
+    width: 350px;
+}*/
+
+.top1 {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px blue solid;
+}
+
+.top2 img{
+    height: 300px;
+    width: 350px;
+    border: 1px lime solid;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;   
+}
+
+li {
+    align-self: center;
+}
+
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 48px; 
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+
+button {
+    background-color: #3882f6;
+    color: #eee;
+    border-radius: 5px;
+    height: 25px;
+    width: 70px;
+    padding-bottom: 2px;
+}
+
+.top1 button {
+    border: 1px solid #1F2937;
+}
+
+.sign-up {
+    border: 1px solid white;
+}
+
+.section4 {
+    background-color: #3882f6;
+    color: #eee;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contain-info {
+    align-self: center;
+}
+
+.contain-image {
+    display: flex;
+    flex-flow: rows wrap;
+}
+
+.container-image {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid firebrick;
+}
+
+.pic {
+    border: 1px solid blue;
+    height: 50px;
+    width: 50px
+}
+
+
+h2 {
+    font-size: 36px;
+    color: #1f2937; 
+    font-weight: 900;
+}
+
+
+.section3 {
+    background-color: #e5e7eb;
+    
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
