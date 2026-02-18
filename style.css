@@ -1,5 +1,5 @@
 * {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif,;
 }
 
 body{
@@ -25,9 +25,13 @@ body{
 header, 
 .head-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
     justify-content: space-between;
+}
+
+.head-container {
+    margin-top: 70px;
 }
 
 .head-logo {
@@ -40,6 +44,7 @@ header,
 header li {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0 auto;
 }
 
 main {
@@ -53,14 +58,13 @@ main {
 .top2 img {
     height: 300px;
     max-width: 400px;
-    flex: 1 0 auto;
-
 }
 
 .top1 {
     display: flex;
     flex-flow: column nowrap;
-    border: 1px blue solid;
+    flex: 1 0 auto;
+    
 }
 
 ul {
@@ -100,14 +104,17 @@ button {
 }
 
 .section2,
-.contain3,
+.section3,
 .section4 {
-    padding: 25px 150px;
+    padding: 20px 100px;
+    margin: 0 100px;
 }
 
 .section2 {
     display: flex;
     flex-direction: column;
+    margin-top:  -25px;
+    margin-bottom: 25px;
 }
 
 .contain-info {
@@ -123,21 +130,21 @@ h2 {
 .contain-image {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
     gap: 10px;
 }
 
 .container-image {
     display: flex;
-    flex-direction: column ;
-    justify-content: space-between;
+    flex-direction: column;
     align-content: center;
-    border: 1px solid firebrick;
 }
 
 .container-image img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 150px;
+    max-height: 150px;
     align-self: center;
+    
 }
 
 .container-image p {
@@ -145,30 +152,41 @@ h2 {
     margin: 0 auto;
 }
 
-
 .contain3 {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    }
+    margin-top:  50px;
+    margin-bottom: 50px;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+}
 
 blockquote {
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
-    margin: 0 auto;
 }
 
 cite {
     align-self: end;
 }
 
+.div {
+    box-sizing: border-box;
+    
+}
+
 .section4 {
+    box-sizing: content-box;
     background-color: #3882f6;
     color: #eee;
     border-radius: 7px;
-    margin: 50px 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;    
 }
 
 
@@ -176,6 +194,8 @@ cite {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
 }
 
 .action {
