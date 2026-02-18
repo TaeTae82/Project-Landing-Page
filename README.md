@@ -2,3 +2,5 @@
 TOP Landing Page Project
 
 Practicing creating a landing page for The Odin Project.
+
+Picture by Pexels
